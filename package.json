@@ -8,8 +8,8 @@
     "url": "https://gitlab.com/Nerossoul/template-vue.js-node.js-express-application"
   },
   "scripts": {
-    "test": "node server/index.js",
-    "dev": "nodemon server/index.js"
+    "start": "node server/index.js",
+    "serve": "nodemon server/index.js"
   },
   "keywords": [
     "vue",
