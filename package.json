@@ -1,5 +1,5 @@
 {
-  "name": "template-vuejs_nodejs(express)-app",
+  "name": "template_vuejs_nodejs_express_app",
   "version": "1.0.0",
   "description": "Template app for full stack app on vue.js frontend and node.js(express) backend.",
   "main": "index.js",
@@ -8,7 +8,8 @@
     "url": "https://gitlab.com/Nerossoul/template-vue.js-node.js-express-application"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node server/index.js",
+    "dev": "nodemon server/index.js"
   },
   "keywords": [
     "vue",
@@ -18,5 +19,8 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
