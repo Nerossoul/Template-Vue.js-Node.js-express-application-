@@ -4,7 +4,9 @@ const router = express.Router()
 
 
 router.get('/', (req, res)=> {
-    res.send(['hello world'])
+    res.send({
+        'hello world':'hi'
+    })
 })
 
 
